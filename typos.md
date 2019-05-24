@@ -51,16 +51,14 @@ Fix the code below so that *1 2 3* is logged to the console instead of *1 undefi
 Rewrite the following using a switch statement:
 
 ```javascript
-
-switch (browserAlert) {
-    case browser == 'Edge':
-        alert("Desperate attempt at staying relevant much?");
-    case browser == 'Chrome':
-    case browser == 'Firefox':
-    case browser =='Opera':
-        alert('That\'s better');
-    default:
-        alert('We hope that this page looks ok!');
+if(browser == 'Edge') {
+    alert("Desperate attempt at staying relevant much?");
+} else if (browser == 'Chrome'
+    || browser == 'Firefox'
+    || browser == 'Safari'
+    || browser == 'Opera') {
+    alert( 'That\'s better' );
+} else {
+    alert( 'We hope that this page looks ok!' );
 }
-
 ```
