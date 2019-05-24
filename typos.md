@@ -40,10 +40,10 @@ Fix the code below so that *1 2 3* is logged to the console instead of *1 undefi
 
 ```javascript
   function hoistMe() {
-    var foo = 1;
+    let foo = 1;
+    let bar = 2;
+    let baz = 3;
     console.log(`${foo} ${bar} ${baz}`);
-    var bar = 2;
-    var baz = 3;
   }
 ```
 
