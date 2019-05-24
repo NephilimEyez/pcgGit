@@ -32,7 +32,11 @@ function editMe() {
 ## Gerald
 Create an IIFE that will print 3 parameters passed to it to the console.
 ```javascript
-'you got this'
+(function () {
+    console.log('I beliebe I can fly.');
+    console.log('I beliebe I can touch the sky.');
+    console.log('I dream about it every night and day');
+})();
 ```
 
 ## Mitch
